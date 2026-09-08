@@ -47,8 +47,9 @@ The design was made user-friendly, with a 'card' format, allowing to locate rele
 I played the role of team lead during the first half of the development, where we created a library to create shapes and export them to SVG, and then I got to play the role of Scrum Master during the development of the app itself. The goal was to get initiated to team work environments and AGILE practices as well as Test-Driven-Development, to develop a satisfying product in a limited amount of time.
 
 Here's a more detailed list of my work on this project:
-- Responsible for making the UI/UX in Swing (making the main app and addons such as JCheckBoxWithEnum, which stores a value enum on a JCheckBox resulting in a solid architecture to avoid using fragile string comparison) 
-- Connecting the application to the backend and the HTML generation system
+- Responsible for making the UI/UX in Swing (making the main app and addons such as JCheckBoxWithEnum, which stores a value enum on a JCheckBox resulting in a solid architecture to avoid using fragile string comparison)
+- Created a save system for application settings (last loaded csv/txt file path, current application mode, current zoom settings)
+- Connecting the application to the backend and the HTML generation system, and ensured user feedback through warning/error windows
 - Measured with a custom profiler and investigated slow load times, and reduced them by 80% (15 seconds -> 3 seconds on average, with times as low as 2.1 seconds), which allowed us to use the real 4 000 000 lines file for the final demo, while other teams had to use considerably smaller, pre-loaded samples.
 - Assisted ticket-making on Taiga (Jira alternative)
 - Test-writing for the application. Helped with writing backend tests and maintained/updated tests after refactors. Ensured a code coverage of at least 75% for all relevant classes.
