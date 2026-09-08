@@ -1,6 +1,6 @@
 # Sift
 A french housing data app made in Java using the framework Swing and [FlatLaf](https://www.formdev.com/flatlaf/) for my Software Engineering classes during year 2 of university.
-This app was developed with 6 other contributors besides me.
+This app was developed with 6 other contributors besides me. Tested and compatible on Windows/Linux.
 
 Code is private for privacy/copyright reasons.
 
